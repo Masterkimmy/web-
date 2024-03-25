@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(7, 7, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #0E1939CC;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(57, 54, 54);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.logo img{
+    height: 40px;
+}
+.logo ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.logo ul a:hover{
+    color:  rgb(124, 236, 236);;
+}
+.logo ul a{
+    color: white;
+    text-decoration: none;
+}
+.logo button{
+    background-color: rgb(124, 236, 236);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.logo button:hover{
+    background-color:white;
+    color: black;
+}
+.sorry h1{
+    color: white;
+    font-size: 35px;
+    width: 22vw;
+}
+.sorry p{
+    color: darkgray;
+    font-size: small;
+    width: 28vw;
+}
+.sorry{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page button{
+    background-color: rgb(124, 236, 236); 
+    border: none;
+    padding: 8px;
+    border-radius: 14px;
+    width: 30%;
+    cursor: pointer;
+}
+.page button a{
+    text-decoration: none;
+    color: black;
+}
+.page img{
+    height: 50vh;
+}
+.still{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.page{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.joit{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.joit h1{
+    color: white;
+    width: 19vw;
+    font-size: 30px;
+}
+.joit button{
+    background-color:  rgb(124, 236, 236);
+    color: white;
+    width: 10vw;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+}
+.unity{
+    height: 40vh;
+}
+  
+.community{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0E1939CC;
+    width: 100%;
+    height: 60vh;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nerd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec3{
+    width: 100%;
+}
+.goo{
+    height: 40px;
+}
+.ggg img{
+    height: 5vh;
+}
+.ggg{
+    display: flex;
+    gap: 10px;
+}
+.under{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    background-color: #0E1939CC;
+    width: 80%;
+    height: 10vh;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.under a:hover{
+    color: aqua;
+}
+.under a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+.pp{
+    color: darkgray;
+}
+@media screen and (max-width:950px)
+{
+    main{
+        gap: 20px;
+    }
+    li{
+        display: none;
+    }
+    .page{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sorry h1{
+        width: 66vw;
+        text-align: center;
+    }
+    .sorry p{
+        width: 75vw;
+        text-align: center;
+    }
+    .page button{
+        width: 50%;
+    }
+    .still,.sorry{
+        align-items: center;
+    }
+    .page img{
+        height: 30vh;
+    }
+    .community{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .joit h1{
+        width: 75%;
+        text-align: center;
+    }
+    .joit button{
+        width: 60vw;
+    }
+    .unity {
+        height: 20vh;
+    }
+    .joit{
+        align-items: center;
+    }
+    .pp{
+        margin-bottom: 20px;
+    }
+    .under{
+        flex-direction: column;
+        height: 20vh;
+        gap: 10px;
+        width: 55%;
+}
+
+    
+    
+}
+    
+
+
+  

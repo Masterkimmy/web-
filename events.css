@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(7, 7, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #0E1939CC;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(57, 54, 54);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.logo img{
+    height: 40px;
+}
+.logo ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.logo ul a:hover{
+    color:  rgb(124, 236, 236);;
+}
+.logo ul a{
+    color: white;
+    text-decoration: none;
+}
+.logo button{
+    background-color: rgb(124, 236, 236);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.logo button:hover{
+    background-color:white;
+    color: black;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.for h1{
+    color: white;
+    font-size: 40px;
+    width: 27.5vw;
+}
+.for p{
+    color: darkgray;
+    font-size: small;
+    width: 23vw;
+}
+.join{
+    display: flex;
+    background-color: rgb(124, 236, 236); 
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 15vw;
+    border-radius: 10px;
+}
+.join button{
+    text-decoration: none;
+    background-color: rgb(124, 236, 236);
+    border: none;  
+}
+.join button a{
+    color: rgb(5, 5, 23);
+    text-decoration: none;
+}
+.cover img{
+    height: 70vh;
+}
+.discover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.href{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.deep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.deep h1{
+    color: white;
+}
+.deep p{
+    color: darkgrey; ;
+}
+.deep h3{
+    color: rgb(124, 236, 236); 
+}
+.up{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.up p{
+    color: rgb(124, 236, 236); 
+}
+.imgn{
+    width: 35vh;
+}
+.dive,.kwara,.show,.hack,.trading{
+    width: 20vw;
+    font-size: small;
+}
+.dive h1{
+    width: 17vw;
+}
+.dive,.kwara,.art,.social,.come,.class{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.defi,.block,.show,.chain,.hack,.trading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.kwara h1{
+    width: 14vw;
+}
+.show h1{
+    width: 17vw;
+}
+.chain{
+    font-size:small;
+    width: 19.5vw;
+}
+.chain h1{
+    width: 15vw;
+}
+.hack h1{
+    width: 16vw;  
+}
+.up img{
+    height: 5px;
+    border: none;
+}
+.state{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.state h1{
+    color: white;
+    width: 40vw;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.state p{
+    color: darkgray;
+    width: 30vw;
+    font-size: small;
+    text-align: center;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.joit{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.joit h1{
+    color: white;
+    width: 19vw;
+    font-size: 30px;
+}
+.joit button{
+    background-color:  rgb(124, 236, 236);
+    color: white;
+    width: 10vw;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+}
+.unity{
+    height: 40vh;
+}
+  
+.community{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0E1939CC;
+    width: 100%;
+    height: 60vh;
+}
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nerd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec4{
+    width: 100%;
+}
+.goo{
+    height: 40px;
+}
+.ggg img{
+    height: 5vh;
+}
+.ggg{
+    display: flex;
+    gap: 10px;
+}
+.under{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    background-color: #0E1939CC;
+    width: 80%;
+    height: 10vh;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.under a:hover{
+    color: aqua;
+}
+.under a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+.pp{
+    color: darkgray;
+}
+@media screen and (max-width:950px)
+{
+    main{
+        gap: 20px;
+    }
+    li{
+        display: none;
+    }
+    .discover{
+        flex-direction: column;
+        align-items: center;
+    }
+    .for h1{
+        font-size: 20px;
+        width: 65vw;
+        text-align: center;
+    }
+    .for p{
+        width:75vw;
+        text-align: center;
+        font-size: 15px;
+    }
+    .for{
+        align-items: center;
+    }
+    .join{
+        width: 60vw;
+    }
+    .href{
+        align-items: center;
+    }
+    .cover img{
+        height: 30vh;
+    }
+    .state h1{
+        width: 75vw;
+        font-size: 25px;
+    }
+    .state p{
+        width: 70vw;
+    }
+    .deep{
+        flex-direction: column;
+    }
+    .dive h1,.kwara h1,.trading h1
+    ,.show h1,.chain h1,.hack h1{
+        width: 75vw;
+    }
+    .dive p,.kwara p,.trading p
+    ,.show p,.chain p,.hack p{
+        width: 70vw;
+    }
+    .dive h3,.kwara h3,.trading h3
+    ,.show h3,.chain h3,.hack h3{
+        width: 40vw;
+    }
+    .community{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .joit h1{
+        width: 75%;
+        text-align: center;
+    }
+    .joit button{
+        width: 60vw;
+    }
+    .unity {
+        height: 20vh;
+    }
+    .joit{
+        align-items: center;
+    }
+    .pp{
+        margin-bottom: 20px;
+    }
+    .under{
+        flex-direction: column;
+        height: 20vh;
+        gap: 10px;
+        width: 55%;
+}
+
+    
+
+    
+
+
+   
+
+   
+  
+}

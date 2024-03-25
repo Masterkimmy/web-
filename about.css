@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(7, 7, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #0E1939CC;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(57, 54, 54);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.logo img{
+    height: 40px;
+}
+.logo ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.logo ul a:hover{
+    color:  rgb(124, 236, 236);;
+}
+.logo ul a{
+    color: white;
+    text-decoration: none;
+}
+.logo button{
+    background-color: rgb(124, 236, 236);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.logo button:hover{
+    background-color:white;
+    color: black;
+}
+.group img{
+    height: 35vh;
+}
+.group{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.group p{
+    color: darkgray;
+    width: 25vw;
+    text-align: center;
+    font-size: small;
+}
+.group h1{
+    width: 50vw;
+    text-align: center;
+    font-size: 50px;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.grow{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; 
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 40px;
+}
+.job p{
+    color: darkgray;
+    font-size: small;
+}
+.job h1{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.stop{
+    color: white;
+    width: 25vw;
+    font-size: 25px;
+}
+.close{
+    display: flex;
+    gap: 70px;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #0E1939CC;
+    height: 40vh;
+    width: 100%;
+}
+.ment{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.ment p{
+    color: darkgray;
+    width: 30vw;
+    font-size: 20px;
+}
+.fost img,.fos img{
+    height: 4vh;
+}
+.fost,.fos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.fost p{
+    width: 12vw;
+    font-size: 20px;
+}
+.access{
+    display: flex;
+    gap: 10px;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.angle img{
+    height: 40vh;
+}
+.angle{
+    display: flex;
+    gap: 10px;
+}
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vision h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.vision{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: darkgray;
+    width: 30vw;
+    font-size: 20px;
+}
+.state{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.where,.power{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+}
+.core{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.core h1{
+    color: white;
+    width: 30vw;
+    text-align: center;
+    font-size: 35px;
+}
+.core p{
+    color: darkgray;
+    width: 30vw;
+    text-align: center;
+    font-size: small;
+}
+.commit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.commit p{
+    width: 15.2vw;
+    font-size: small;
+    color: darkgray;
+}
+.commit img{
+    height: 10vh;
+}
+.envro{
+    background-color: #0B132B;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 30px;
+    gap: 15px;
+    border-radius: 10px;
+}
+.envro img{
+    height: 4vh;
+}
+.powerment{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.powerment p{
+    width: 16vw;
+    font-size: small;
+    color: darkgray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.sec5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.now{
+    background-color: #0B132B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 30px;
+}
+.now img{
+    height: 10vh;
+}
+.joll img{
+    height: 4vh;
+}
+.joy{
+    color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.joy p{
+    font-size: x-small;
+    text-align: center;
+}
+.joll{
+    display: flex;
+    gap: 7px;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    align-items: center;
+}
+.team h1{
+    font-size: 25px;
+}
+.team P{
+    color: darkgray;
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+}
+.lead{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.sec6{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding:20px 20px 0 20px;
+    background: url(./Image/Ellipse\ 48.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+    height: 40vh;
+} 
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.explore h1{
+    color: white;
+    width: 18vw;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 10px;
+    margin-left: 40px;
+}
+.explore button{
+    background-color:  rgb(124, 236, 236); 
+    width: 8vw;
+    padding: 5px;
+    border: none;
+    border-radius: 14px;
+    font-size: small;
+}
+.sec9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #0E1939CC;
+    border-radius: 14px;
+}
+.joit{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.joit h1{
+    color: white;
+    width: 19vw;
+    font-size: 30px;
+}
+.joit button{
+    background-color:  rgb(124, 236, 236);
+    color: white;
+    width: 10vw;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+}
+.unity{
+    height: 40vh;
+}
+.community{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0E1939CC;
+    width: 100%;
+    height: 60vh;
+}
+.sec10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nerd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec11{
+    width: 100%;
+}
+.ggg img{
+    height: 5vh;
+}
+.ggg{
+    display: flex;
+    gap: 10px;
+}
+.goo{
+    height: 40px;
+}
+.under{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    background-color: #0E1939CC;
+    width: 80%;
+    height: 10vh;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.under a:hover{
+    color: aqua;
+}
+.under a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+.pp{
+    color: darkgray;
+}
+@media screen and (max-width:950px)
+{
+    main{
+        gap: 20px;
+    }
+    li{
+        display: none;
+    }
+    .group img{
+        height: 10vh;
+    }
+    .group h1{
+        font-size: 25px;
+        width: 70vw;
+    }
+    .group P{
+        width: 66vw;
+        font-size: 15PX;
+    }
+    .mission{
+        gap: 10PX;
+    }
+    .grow{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .stop{
+        width: 80%;
+        text-align: center;
+    }
+    .close,.job{
+        gap: 20px;
+    }
+    .power,.angle{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ment{
+        display: flex;
+        align-items: center;
+    }
+    .ment p{
+        width: 85%;
+        text-align: center;
+    }
+    .access{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap: 15px;
+    }
+    .fost p{
+        width: 55vw;
+    }
+    .web,.state{
+        gap: 10px;
+    }
+    .where{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .vision h1{
+        width: 40vw;
+    }
+    .vision{
+        width: 95vw;
+        text-align: center;
+    }
+    .vision,.exp{
+        align-items: center;
+    }
+    .core h1{
+        width: 90vw;
+    }
+    .core p{
+        width: 75vw;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .envro p{
+        width: 90%;
+    }
+    .team p{
+        width: 80%;
+    }
+    .lead{
+        flex-direction: column;
+    }
+    .exp h1{
+        width: 105%;
+        text-align: center; 
+    }
+    .exp button,.joit button{
+        width: 60%;
+    }
+    .community{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .joit h1{
+        width: 75%;
+        text-align: center;
+    }
+    .unity {
+        height: 20vh;
+    }
+    .joit{
+        align-items: center;
+    }
+    .pp{
+        margin-bottom: 20px;
+    }
+    .under{
+        flex-direction: column;
+        height: 20vh;
+        gap: 10px;
+        width: 55%;
+}
+
+    
+    
+
+}
+    
+
+
